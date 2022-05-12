@@ -10,7 +10,7 @@ function App() {
   const [h,setH] = useState(0)
   const [m,setM] = useState(0)
   const [s,setS] = useState(0)
-  const deadline = new Date('May 26, 2022 00:00:00 GMT+0200').getTime();
+  const deadline = new Date('May 27, 2022 00:00:00 GMT+0200').getTime();
   var x = setInterval(function(){
     var now = new Date().getTime()
     var distance = deadline - now
