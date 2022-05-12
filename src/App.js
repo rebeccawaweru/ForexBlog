@@ -67,54 +67,86 @@ function App() {
             >
               COMING SOON
             </Typography>
-        <Box sx={{display:{
-          lg:'flex',
-          md:"flex",
-          xs:"block",
-          sm:"block"
-        },paddingLeft:{
-           lg:0,
-           md:0,
-           sm:20,
-           xs:20
-        },justifyContent:"center", alignItems:"center",textAlign:"center"}}>
-            <Box sx={{display:"block", padding:1,boxShadow:10,backgroundColor:"#CCA300", height:80, width:80, mx:2,mb:{
-          lg:0,
-          md:0,
-          sm:2,
-          xs:2
-        }}}>
-            <Typography variant="h5" component="h4">Days</Typography>
-            <Typography variant="h5" component="h4">{d}</Typography>
+            <Grid container sx={{display:"flex", mb:3, justifyContent:"center", alignItems:"center"}}>
+            <Box className="box" sx={{display:"block", padding:1,boxShadow:10,backgroundColor:"#CCA300",  height:{
+              lg:80,
+              md:80,
+              sx:20,
+              xs:20
+            },width:80, mx:2, mb:2}}>
+            <Typography variant="h5" component="h4" sx={{fontSize:{
+              lg:25,
+              md:25,
+              sx:10,
+              xs:10
+            }}}>Days</Typography>
+            <Typography variant="h5" component="h4"  sx={{fontSize:{
+              lg:25,
+              md:25,
+              sx:10,
+              xs:10
+            }}}>{d}</Typography>
             </Box>
-            <Box sx={{display:"block", padding:1,boxShadow:10,backgroundColor:"#CCA300", height:80, width:80, mx:2,mb:{
-          lg:0,
-          md:0,
-          sm:2,
-          xs:2
-        }}}>
-            <Typography variant="h5" component="h4">Hours</Typography>
-            <Typography variant="h5" component="h4">{h}</Typography>
+            <Box sx={{display:"block", padding:1,boxShadow:10,backgroundColor:"#CCA300",  height:{
+              lg:80,
+              md:80,
+              sx:20,
+              xs:20
+            },width:80, mx:2, mb:2}}>
+            <Typography variant="h5" component="h4" sx={{fontSize:{
+              lg:25,
+              md:25,
+              sx:10,
+              xs:10
+            }}}>Hours</Typography>
+            <Typography variant="h5" component="h4" sx={{fontSize:{
+              lg:25,
+              md:25,
+              sx:10,
+              xs:10
+            }}}>{h}</Typography>
             </Box>
-            <Box sx={{display:"block", padding:1,boxShadow:10,backgroundColor:"#CCA300", height:80, width:100, mx:2,mb:{
-          lg:0,
-          md:0,
-          sm:2,
-          xs:2
-        },}}>
-            <Typography variant="h5" component="h4">Minutes</Typography>
-            <Typography variant="h5" component="h4">{m}</Typography>
+            <Box sx={{display:"block", padding:1,boxShadow:10,backgroundColor:"#CCA300", height:{
+              lg:80,
+              md:80,
+              sx:20,
+              xs:20
+            },width:80, mx:2, mb:2}}>
+            <Typography variant="h5" component="h4" sx={{fontSize:{
+              lg:25,
+              md:25,
+              sx:10,
+              xs:10
+            }}}>Minutes</Typography>
+            <Typography variant="h5" component="h4" sx={{fontSize:{
+              lg:25,
+              md:25,
+              sx:10,
+              xs:10
+            }}}>{m}</Typography>
             </Box>
-            <Box sx={{display:"block", padding:1,boxShadow:10,backgroundColor:"#CCA300", height:85, width:100, mx:2,mb:{
-          lg:0,
-          md:0,
-          sm:2,
-          xs:2
-        },}}>
-            <Typography variant="h5" component="h4">Seconds</Typography>
-            <Typography variant="h5" component="h4">{s}</Typography>
+            <Box sx={{display:"block", padding:1,boxShadow:10,backgroundColor:"#CCA300", height:{
+              lg:80,
+              md:80,
+              sx:20,
+              xs:20
+            },width:90, mx:2, mb:2}}>
+            <Typography variant="h5" component="h4" sx={{fontSize:{
+              lg:25,
+              md:25,
+              sx:10,
+              xs:10
+            }}}>Seconds</Typography>
+            <Typography variant="h5" component="h4" sx={{fontSize:{
+              lg:25,
+              md:25,
+              sx:10,
+              xs:10
+            }}}>{s}</Typography>
             </Box>
-        </Box>
+
+
+        </Grid>
       </Box>
    
     </Box>
